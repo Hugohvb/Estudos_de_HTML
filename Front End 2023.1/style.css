@@ -1,15 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color:#200738;
+    text-align: center;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color:#200738;
+    text-align: center;
+}
+
+#titulo3{
+    font-family: sans-serif;
+    color: #200738;
+    margin-left: 1%;
+}
+
 body{
-    background-color:cyan;
+    background-color: rgb(253, 246, 165);
+    background-image: url(img\ op30.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:contain;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+.occupationbox{
+    margin-left: 30%;
+
 }
 h1{
     text-align: center;
-}
-h2{
-    text-align: center;
+    font: normal 35px Arial, Verdana, serif;
 }
 h3{
-    text-align: center;
+    font: oblique 15px arial;
+
 }
 .inputbox{
     text-align: center;
+    display: inline-block;
+    width: 80%;
+    margin-left: center;
+    margin-right: 2%;
+    vertical-align:middle;
 }
+img{
+    opacity: 50%;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-left: 0.2em;
+    color: #200738;
+    display: block;
+}
+
+fieldset.campo{
+    float: left;
+    margin-right: 1em;
+
+}
+

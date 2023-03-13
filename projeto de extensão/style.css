@@ -57,6 +57,7 @@ img{
 
 .campo{
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .campo label{
@@ -78,4 +79,16 @@ fieldset.campo{
     margin-left: center;
     margin-right: 2%;
     vertical-align:middle;
+}
+
+#fim{
+    text-align: center;
+
+}
+
+#butao{
+    margin-left: 45%;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(236, 228, 139);
 }
